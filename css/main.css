@@ -1,0 +1,25 @@
+@import url(/css/components/header.css);
+@import url(/css/components/options.css);
+@import url(/css/components/footer.css);
+@import url(/css/components/media.css);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}

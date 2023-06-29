@@ -1,0 +1,59 @@
+.options {
+  flex-grow: 1;
+  background: #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.options__wrapper {
+  max-width: 736px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.options__item {
+  width: 352px;
+  padding: 48px 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.15);
+}
+
+.options__item > svg {
+  fill: #7c7c7c;
+}
+
+.options__item:hover {
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0px 4px 30px 0px rgba(67, 116, 229, 0.4);
+}
+
+.options__item:hover svg {
+  fill: #4374e5;
+}
+
+.options__item-title {
+  color: #000;
+  text-align: center;
+  font-size: 32px;
+  font-family: Montserrat;
+  font-weight: 700;
+  margin-top: 32px;
+}
+
+.options__item-txt {
+  color: #222;
+  text-align: center;
+  font-size: 16px;
+  font-family: Montserrat;
+  line-height: 24px;
+  margin-top: 16px;
+}
