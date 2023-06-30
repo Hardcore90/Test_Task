@@ -34,11 +34,6 @@
     display: flex;
   }
 
-  .options {
-    padding: 74px 0 52px 0;
-    overflow: scroll;
-  }
-
   .options__wrapper {
     flex-wrap: wrap;
     align-content: center;
@@ -69,6 +64,10 @@
   .header__logo svg {
     width: 127px;
     height: 18px;
+  }
+
+  .options {
+    padding: 88px 0 40px 0;
   }
 
   .footer {
