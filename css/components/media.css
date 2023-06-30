@@ -1,3 +1,13 @@
+@media (max-width: 1240px) {
+  .header .container,
+  .footer .container {
+    max-width: 984px;
+    width: 100%;
+    height: 32px;
+    margin: 0 auto;
+  }
+}
+
 @media (max-width: 992px) {
   .header .container {
     max-width: 952px;
@@ -13,7 +23,7 @@
   }
 
   .header .container {
-    max-width: 736px;
+    max-width: 728px;
   }
 
   .header__menu {
@@ -42,7 +52,7 @@
   }
 
   .footer .container {
-    max-width: 736px;
+    max-width: 728px;
     height: 32px;
   }
 }
@@ -50,10 +60,6 @@
 @media (max-width: 425px) {
   .header {
     padding: 8px 0;
-  }
-
-  .container {
-    max-width: 340px;
   }
 
   .header .container {
